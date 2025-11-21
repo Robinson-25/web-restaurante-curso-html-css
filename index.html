@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <style></style>
+  <body>
+    <header
+      class="px-3 md:px-6 lg:px-10 relative z-[3] py-4 md:py-6 shadow-xl/20"
+    >
+      <div class="flex justify-between items-center">
+        <div class="flex gap-3 items-center">
+          <div
+            class="w-11 min-w-11 h-11 min-h-11 bg-gradient-to-r from-orange-400 to-orange-700 flex justify-center items-center rounded-full"
+          >
+            <p class="text-zinc-100 font-bold text-lg">SR</p>
+          </div>
+          <p class="text-base font-bold sm:text-xl md:text-2xl">Sabor Rápido</p>
+        </div>
+
+        <nav class="hidden md:flex">
+          <ul class="flex items-center gap-5">
+            <li>
+              <a href="#" class="text-zinc-700 font-medium">Inicio</a>
+            </li>
+            <li>
+              <a href="#" class="text-zinc-700 font-medium">Menú</a>
+            </li>
+            <li>
+              <a href="#" class="text-zinc-700 font-medium">Nosotros</a>
+            </li>
+            <li>
+              <a href="#" class="text-zinc-700 font-medium">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div>
+          <a
+            href=""
+            class="bg-gradient-to-r from-orange-400 to-orange-800 text-zinc-100 rounded-full font-medium px-4 text-wrap text-center py-2 flex"
+            >LLamar Ahora</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <main class="relative z-[0]">
+      <section class="px-4 md:px-8 lg:px-10 py-10 overflow-hidden">
+        <div
+          class="relative before:content-[''] before:absolute before:z-[0] before:-left-10 before:-top-20 before:bg-gradient-to-r before:from-orange-400/70 before:to-orange-800/70 before:rounded-full before:h-[320px] before:w-[400px] before:opacity-[.0] before:animate-pulse before:blur-[80px]"
+        >
+          <div class="relative z-[1] lg:flex lg:gap-10">
+            <div>
+              <div
+                class="px-4 py-2 w-fit bg-zinc-100 rounded-full mx-auto lg:mx-0"
+              >
+                <p
+                  class="text-sm text-orange-800 font-medium text-center lg:text-start"
+                >
+                  🚚 Entrega GRATIS en pedidos sobre S/25.00
+                </p>
+              </div>
+
+              <h1
+                class="text-center lg:text-start text-zinc-800 text-4xl sm:text-5xl lg:text-7xl sm:leading-[56px] lg:leading-[84px] font-bold leading-[44px] mt-6"
+              >
+                El Mejor <br />
+                <span class="text-orange-500">Sabor</span> <br />
+                de la Ciudad
+              </h1>
+
+              <p
+                class="text-zinc-600 w-full max-w-[600px] mx-auto text-xl sm:text-2xl text-center lg:text-start mt-6 leading-[32px]"
+              >
+                Descubre nuestra deliciosa comida rápida preparada con
+                ingredientes frescos y de la más alta calidad.
+                <span class="text-orange-500 font-medium"
+                  >¡Más de 15 años sirviendo a las familias!</span
+                >
+              </p>
+
+              <div class="flex flex-col sm:flex-row gap-3 items-center mt-8">
+                <a
+                  href=""
+                  class="bg-gradient-to-r from-orange-400 to-orange-800 text-zinc-100 h-16 flex items-center justify-center px-6 rounded-full text-lg text-center font-bold w-full"
+                  >🍔 Pedir Ahora - S/12.99</a
+                >
+                <a
+                  href=""
+                  class="bg-zinc-100 text-orange-600 border-2 border-orange-400 rounded-full h-16 flex items-center justify-center w-full text-lg font-bold"
+                  >Ver Menú Completo</a
+                >
+              </div>
+
+              <div
+                class="mt-16 grid grid-cols-3 gap-4 w-full max-w-[600px] mx-auto"
+              >
+                <div class="flex flex-col gap-3">
+                  <p
+                    class="text-orange-500 text-2xl font-bold text-center sm:text-4xl lg:text-5xl"
+                  >
+                    25k+
+                  </p>
+                  <p
+                    class="text-zinc-800 text-sm text-wrap text-center sm:text-base"
+                  >
+                    Clientes <br />
+                    Felices
+                  </p>
+                </div>
+                <div class="flex flex-col gap-3">
+                  <p
+                    class="text-orange-500 text-2xl font-bold text-center sm:text-4xl lg:text-5xl"
+                  >
+                    4.9★
+                  </p>
+                  <p
+                    class="text-zinc-800 text-sm text-wrap text-center sm:text-base"
+                  >
+                    Calificación
+                  </p>
+                </div>
+                <div class="flex flex-col gap-3">
+                  <p
+                    class="text-orange-500 text-2xl font-bold text-center sm:text-4xl lg:text-5xl"
+                  >
+                    15min
+                  </p>
+                  <p
+                    class="text-zinc-800 text-sm text-wrap text-center sm:text-base"
+                  >
+                    Entrega
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-12 flex justify-center lg:items-start">
+              <div class="relative">
+                <div
+                  class="bg-gradient-to-r from-orange-400 to-orange-800 rounded-2xl text-center py-4 w-fit px-5 absolute -bottom-8 -left-6"
+                >
+                  <p class="text-zinc-100 text-2xl font-bold">S/12.99</p>
+                  <p class="text-sm text-zinc-200">Hamburguesa suprema</p>
+                </div>
+                <div
+                  class="bg-zinc-50 px-5 rounded-xl w-fit flex gap-2 items-center py-3 absolute -right-8 -top-5"
+                >
+                  <div
+                    class="w-2.5 h-2.5 bg-green-500 rounded-full animate-pulse"
+                  ></div>
+                  <p class="text-sm font-medium">Disponible Ahora</p>
+                </div>
+                <img
+                  src="./assets/restaurante.webp"
+                  class="rounded-3xl"
+                  alt="Imagen de restaurante"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="pt-20 px-4 md:px-8 lg:px-10">
+        <div class="flex flex-col gap-5 items-center">
+          <p
+            class="text-orange-600 font-medium text-sm sm:text-base bg-orange-100 w-fit py-1 px-3 rounded-full"
+          >
+            🍽️ Nuestras Especialidades
+          </p>
+          <h2 class="text-4xl md:text-5xl font-bold text-center">
+            Platos que te van a <span class="text-orange-500">enamorar</span>
+          </h2>
+          <p class="text-center text-xl text-zinc-600">
+            Cada plato está preparado con ingredientes frescos, recetas
+            familiares y mucho amor
+          </p>
+        </div>
+
+        <div
+          class="pt-16 flex flex-col gap-10 sm:grid sm:grid-cols-2 lg:grid-cols-3"
+        >
+          <div class="rounded-2xl shadow-xl/10 pb-3">
+            <div
+              class="bg-[url(./assets/plato-01.webp)] bg-center bg-cover w-full h-60 rounded-t-[inherit] relative"
+            >
+              <div class="absolute top-4 left-3">
+                <p
+                  class="bg-red-500 text-zinc-100 text-sm font-semibold px-3 rounded-full py-1"
+                >
+                  🔥 Más Vendida
+                </p>
+              </div>
+              <div
+                class="absolute right-3 top-4 bg-zinc-100 p-1.5 rounded-full"
+              >
+                <p class="text-2xl">🍔</p>
+              </div>
+            </div>
+            <div class="flex flex-col gap-3 py-4 px-6">
+              <p class="text-2xl font-bold">Hamburguesa Suprema</p>
+              <p class="text-zinc-700 text-base">
+                Doble carne de res premium, queso cheddar derretido, tocino
+                crujiente, lechuga fresca, tomate y nuestra salsa especial
+                secreta
+              </p>
+              <div class="flex justify-between items-center">
+                <p class="text-3xl font-bold text-orange-500">S/18.99</p>
+                <p class="text-zinc-600 text-sm">650cal</p>
+              </div>
+              <button
+                class="bg-gradient-to-r from-orange-400 to-orange-800 h-12 rounded-2xl text-zinc-100 font-bold mt-2"
+              >
+                Pedir Ahora
+              </button>
+            </div>
+          </div>
+          <div class="rounded-2xl shadow-xl/10 pb-3">
+            <div
+              class="bg-[url(./assets/plato-02.webp)] bg-center bg-cover w-full h-60 rounded-t-[inherit] relative"
+            >
+              <div class="absolute top-4 left-3">
+                <p
+                  class="bg-green-500 text-zinc-100 text-sm font-semibold px-3 rounded-full py-1"
+                >
+                  ✨ Nuevo
+                </p>
+              </div>
+              <div
+                class="absolute right-3 top-4 bg-zinc-100 p-1.5 rounded-full"
+              >
+                <p class="text-2xl">🍗</p>
+              </div>
+            </div>
+            <div class="flex flex-col gap-3 py-4 px-6">
+              <p class="text-2xl font-bold">Pollo Crujiente Deluxe</p>
+              <p class="text-zinc-700 text-base">
+                Pechuga de pollo empanizada con mezcla de especias secretas,
+                ensalada mixta, aguacate fresco y aderezo ranch casero
+              </p>
+              <div class="flex justify-between items-center">
+                <p class="text-3xl font-bold text-orange-500">S/16.99</p>
+                <p class="text-zinc-600 text-sm">580cal</p>
+              </div>
+              <button
+                class="bg-gradient-to-r from-orange-400 to-orange-800 h-12 rounded-2xl text-zinc-100 font-bold mt-2"
+              >
+                Pedir Ahora
+              </button>
+            </div>
+          </div>
+          <div class="rounded-2xl shadow-xl/10 pb-3">
+            <div
+              class="bg-[url(./assets/plato-03.webp)] bg-center bg-cover w-full h-60 rounded-t-[inherit] relative"
+            >
+              <div class="absolute top-4 left-3">
+                <p
+                  class="bg-purple-500 text-zinc-100 text-sm font-semibold px-3 rounded-full py-1"
+                >
+                  💰 Oferta
+                </p>
+              </div>
+              <div
+                class="absolute right-3 top-4 bg-zinc-100 p-1.5 rounded-full"
+              >
+                <p class="text-2xl">👨‍👩‍👧‍👦</p>
+              </div>
+            </div>
+            <div class="flex flex-col gap-3 py-4 px-6">
+              <p class="text-2xl font-bold">Combo Familiar</p>
+              <p class="text-zinc-700 text-base">
+                4 hamburguesas clásicas, papas fritas grandes, aros de cebolla
+                crujientes y 4 bebidas a elección. ¡Perfecto para compartir!
+              </p>
+              <div class="flex gap-3 justify-between items-center">
+                <div class="flex gap-2 items-center">
+                  <p class="text-3xl font-bold text-orange-500">S/45.99</p>
+                  <p class="text-lg line-through font-normal text-zinc-400">
+                    S/52.99
+                  </p>
+                </div>
+                <p class="text-zinc-600 text-sm">Para 4 personas</p>
+              </div>
+              <button
+                class="bg-gradient-to-r from-orange-400 to-orange-800 h-12 rounded-2xl text-zinc-100 font-bold mt-2"
+              >
+                Pedir Ahora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="py-10 my-20 bg-gradient-to-r from-orange-400 to-orange-800 rounded-2xl flex flex-col gap-4 px-8"
+        >
+          <p class="text-3xl lg:text-4xl text-zinc-100 font-bold text-center">
+            ¿Tienes hambre? ¡Llama ahora!
+          </p>
+          <p class="text-zinc-200 text-xl text-center">
+            Entrega gratuita en pedidos sobre S/25.00 • Tiempo promedio: 15-20
+            minutos
+          </p>
+
+          <a
+            href="#"
+            class="bg-zinc-100 rounded-full h-14 flex items-center justify-center text-lg font-bold text-orange-500 px-6 w-full max-w-fit mx-auto"
+            >📞 +51 927 165 123</a
+          >
+        </div>
+      </section>
+
+      <section class="py-20 px-4 md:px-8 lg:px-10">
+        <div class="flex flex-col gap-5 items-center">
+          <p
+            class="text-orange-600 font-medium text-sm md:text-base bg-orange-100 w-fit py-1 px-3 rounded-full"
+          >
+            ⭐ Testimonios
+          </p>
+          <h2 class="text-4xl md:text-5xl font-bold text-center">
+            Lo que dicen nuestros <span class="text-orange-500">clientes</span>
+          </h2>
+          <p class="text-center text-xl text-zinc-600">
+            Miles de familias confían en nosotros para sus comidas favoritas
+          </p>
+        </div>
+
+        <div class="pt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="shadow-xl/10 py-10 px-8 rounded-2xl flex flex-col gap-4">
+            <div class="flex items-center gap-3">
+              <p class="text-yellow-500">★★★★★</p>
+              <p class="text-sm text-zinc-700">5.0</p>
+            </div>
+            <p class="italic text-zinc-600">
+              La mejor hamburguesa que he probado en años. El servicio es súper
+              rápido y la comida siempre llega caliente. Mi familia y yo somos
+              clientes regulares desde hace 3 años.
+            </p>
+
+            <div class="flex gap-4">
+              <div
+                class="w-12 h-12 bg-gradient-to-r from-orange-400 to-orange-800 flex items-center justify-center text-zinc-100 text-base font-bold rounded-full"
+              >
+                <p>MG</p>
+              </div>
+              <div>
+                <p class="font-bold">Maria Gonzales</p>
+                <p class="text-sm text-zinc-600">Cliente desde 2021</p>
+              </div>
+            </div>
+          </div>
+          <div class="shadow-xl/10 py-10 px-8 rounded-2xl flex flex-col gap-4">
+            <div class="flex items-center gap-3">
+              <p class="text-yellow-500">★★★★★</p>
+              <p class="text-sm text-zinc-700">5.0</p>
+            </div>
+            <p class="italic text-zinc-600">
+              Excelente calidad y precios súper justos. El pollo crujiente es
+              espectacular y las papas siempre están perfectas. Lo recomiendo
+              100% a todos mis amigos.
+            </p>
+
+            <div class="flex gap-4">
+              <div
+                class="w-12 h-12 bg-gradient-to-r from-orange-400 to-orange-800 flex items-center justify-center text-zinc-100 text-base font-bold rounded-full"
+              >
+                <p>CR</p>
+              </div>
+              <div>
+                <p class="font-bold">Carlos Rodriguez</p>
+                <p class="text-sm text-zinc-600">Cliente desde 2020</p>
+              </div>
+            </div>
+          </div>
+          <div class="shadow-xl/10 py-10 px-8 rounded-2xl flex flex-col gap-4">
+            <div class="flex items-center gap-3">
+              <p class="text-yellow-500">★★★★★</p>
+              <p class="text-sm text-zinc-700">5.0</p>
+            </div>
+            <p class="italic text-zinc-600">
+              El delivery es increíble, siempre llegan en el tiempo prometido.
+              La comida está deliciosa y mis hijos están súper contentos. Es
+              nuestro restaurante favorito.
+            </p>
+
+            <div class="flex gap-4">
+              <div
+                class="w-12 h-12 bg-gradient-to-r from-orange-400 to-orange-800 flex items-center justify-center text-zinc-100 text-base font-bold rounded-full"
+              >
+                <p>AM</p>
+              </div>
+              <div>
+                <p class="font-bold">Ana Martinez</p>
+                <p class="text-sm text-zinc-600">Cliente desde 2019</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-20 px-4 md:px-8 lg:px-10">
+        <div class="lg:grid lg:grid-cols-2 lg:gap-8">
+          <div>
+            <div class="flex flex-col gap-8">
+              <p
+                class="text-orange-600 font-medium text-sm md:text-base bg-orange-100 w-fit py-1 px-3 rounded-full"
+              >
+                🏆 Nuestra Historia
+              </p>
+              <h2 class="text-4xl md:text-5xl md:leading-[60px] font-bold">
+                Más que comida rápida,
+                <span class="text-orange-500">una tradición familiar</span>
+              </h2>
+              <p class="text-lg text-zinc-600 leading-8">
+                Desde 2008, Sabor Rápido ha sido el lugar favorito para quienes
+                buscan comida rápida sin comprometer la calidad. Utilizamos
+                ingredientes frescos y locales para crear experiencias
+                gastronómicas únicas que han conquistado el corazón de más de
+                25,000 familias.
+              </p>
+            </div>
+
+            <div class="mt-16 grid grid-cols-2 gap-6">
+              <div class="py-6 px-5 bg-orange-50 rounded-2xl">
+                <p
+                  class="text-orange-500 text-3xl sm:text-4xl font-bold text-center"
+                >
+                  25k+
+                </p>
+                <p
+                  class="text-zinc-600 font-medium text-base text-wrap text-center"
+                >
+                  Clientes <br />
+                  Felices
+                </p>
+              </div>
+              <div class="py-6 px-5 bg-orange-50 rounded-2xl">
+                <p
+                  class="text-orange-500 text-3xl sm:text-4xl font-bold text-center"
+                >
+                  16
+                </p>
+                <p
+                  class="text-zinc-600 font-medium text-base text-wrap text-center"
+                >
+                  Años de experiencia
+                </p>
+              </div>
+              <div class="py-6 px-5 bg-orange-50 rounded-2xl">
+                <p
+                  class="text-orange-500 text-3xl sm:text-4xl font-bold text-center"
+                >
+                  4.9★
+                </p>
+                <p
+                  class="text-zinc-600 font-medium text-base text-wrap text-center"
+                >
+                  Calificación promedio
+                </p>
+              </div>
+              <div class="py-6 px-5 bg-orange-50 rounded-2xl">
+                <p class="text-orange-500 text-3xl font-bold text-center">
+                  15min
+                </p>
+                <p
+                  class="text-zinc-600 font-medium text-base text-wrap text-center"
+                >
+                  Tiempo de entrega
+                </p>
+              </div>
+            </div>
+
+            <div class="flex flex-col sm:flex-row gap-3 items-center mt-10">
+              <a
+                href=""
+                class="bg-gradient-to-r from-orange-400 to-orange-800 text-zinc-100 h-12 flex items-center justify-center px-6 rounded-full text-base font-bold w-full sm:max-w-fit"
+                >Conoce Nuestro Menú</a
+              >
+              <a
+                href=""
+                class="bg-zinc-100 text-orange-600 border-2 border-orange-400 rounded-full h-12 flex items-center justify-center w-full text-base font-bold sm:max-w-fit px-6"
+                >Visítanos</a
+              >
+            </div>
+          </div>
+
+          <div class="mt-12 flex items-center justify-center">
+            <div class="relative flex items-center justify-center">
+              <div
+                class="bg-gradient-to-r from-orange-400 to-orange-800 rounded-2xl text-center py-4 w-fit px-5 absolute -bottom-8 -right-6"
+              >
+                <p class="text-zinc-100 text-2xl font-bold">2008</p>
+                <p class="text-sm text-zinc-200">Fundado</p>
+              </div>
+              <div
+                class="bg-zinc-50 px-5 rounded-xl w-fit flex gap-2 items-center py-3 absolute -left-8 -top-5"
+              >
+                <p class="text-sm font-medium">👨‍👩‍👧‍👦 Empresa familiar</p>
+              </div>
+              <img
+                src="./assets/restaurante-02.webp"
+                class="rounded-3xl"
+                alt="Imagen de restaurante"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="py-20 px-4 md:px-8 lg:px-10 bg-gradient-to-br from-gray-900 to-gray-800"
+      >
+        <div class="flex flex-col items-center gap-5">
+          <p
+            class="text-orange-600 font-medium text-sm bg-orange-100 w-fit py-1 px-3 rounded-full"
+          >
+            📍 Contáctanos
+          </p>
+          <h2 class="text-4xl sm:text-5xl font-bold text-center text-zinc-100">
+            ¿Listo para
+            <span class="text-orange-500">ordenar?</span>
+          </h2>
+          <p class="text-lg text-zinc-300 leading-8 text-center">
+            Estamos aquí para servirte. Llámanos, visítanos o pide delivery
+          </p>
+        </div>
+
+        <div
+          class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-10 w-full max-w-[1000px] mx-auto"
+        >
+          <div
+            class="w-full flex flex-col gap-3 items-center border border-zinc-600 rounded-lg px-8 py-8 bg-white/10 backdrop-blur-[6px]"
+          >
+            <div
+              class="bg-gradient-to-r from-orange-400 to-orange-800 w-16 h-16 rounded-full flex items-center justify-center"
+            >
+              <p class="text-2xl">📍</p>
+            </div>
+            <p class="text-2xl font-bold text-zinc-100 text-center">
+              Nuestra Ubicación
+            </p>
+            <p class="text-zinc-300 text-center">
+              Avenida Principal 456 Centro Ciudad
+            </p>
+            <p class="text-orange-400 font-medium text-center">
+              Frente al Centro Comercial Plaza
+            </p>
+          </div>
+          <div
+            class="w-full flex flex-col gap-3 items-center border border-zinc-600 rounded-lg px-8 py-8 bg-white/10 backdrop-blur-[6px]"
+          >
+            <div
+              class="bg-gradient-to-r from-orange-400 to-orange-800 w-16 h-16 rounded-full flex items-center justify-center"
+            >
+              <p class="text-2xl">📞</p>
+            </div>
+            <p class="text-2xl font-bold text-zinc-100 text-center">Llámanos</p>
+            <p class="text-orange-400 font-bold text-xl text-center">
+              +51 927165123
+            </p>
+            <p class="text-zinc-300 text-center">
+              Avenida Principal 456 Centro Ciudad
+            </p>
+            <p class="text-orange-400 font-medium text-center">
+              Disponible 24/7
+            </p>
+          </div>
+          <div
+            class="w-full flex flex-col gap-2 items-center border border-zinc-600 rounded-lg px-8 py-8 bg-white/10 backdrop-blur-[6px]"
+          >
+            <div
+              class="bg-gradient-to-r from-orange-400 to-orange-800 w-16 h-16 rounded-full flex items-center justify-center"
+            >
+              <p class="text-2xl">🕒</p>
+            </div>
+            <p class="text-2xl font-bold text-zinc-100 text-center">Horarios</p>
+            <p class="text-orange-400 font-medium text-center">
+              Lunes - Domingo
+            </p>
+            <p class="text-zinc-300 text-center">11:00 AM - 11:00 PM</p>
+            <p class="text-orange-400 font-medium text-center">
+              Delivery hasta las 12:00 AM
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="py-8 my-20 bg-gradient-to-r from-orange-400 to-orange-800 rounded-2xl flex flex-col gap-4 px-8 w-full max-w-[800px] mx-auto"
+        >
+          <p class="text-3xl text-zinc-100 font-bold text-center">
+            ¡Haz tu pedido ahora!
+          </p>
+          <p class="text-zinc-200 text-xl text-center">
+            Entrega GRATIS en pedidos sobre S/25.00 • Tiempo promedio: 15-20
+            minutos
+          </p>
+
+          <div class="flex gap-4 items-center justify-center">
+            <a
+              href="#"
+              class="bg-zinc-100 rounded-full h-14 flex items-center justify-center text-lg font-bold text-orange-500 px-6"
+              >📞 Llamar Ahora</a
+            >
+            <a
+              href="#"
+              class="bg-green-500 rounded-full h-14 flex items-center justify-center text-lg font-bold text-zinc-100 px-6"
+              >💬 WhatsApp</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-gray-900 px-4 md:px-8 lg:px-10 py-12">
+      <section
+        class="md:grid md:grid-cols-4 md:gap-8 w-full max-w-[900px] mx-auto"
+      >
+        <div>
+          <div>
+            <div class="flex items-center gap-3">
+              <div
+                class="bg-gradient-to-r from-orange-400 to-orange-800 w-10 h-10 flex items-center justify-center rounded-full"
+              >
+                <p class="text-zinc-100 font-bold">SR</p>
+              </div>
+              <p class="text-zinc-100 text-xl font-bold">Sabor Rápido</p>
+            </div>
+            <p class="text-zinc-400 text-base mt-3 md:mt-0">
+              La mejor comida rápida de la ciudad, preparada con amor y
+              ingredientes frescos desde 2008.
+            </p>
+          </div>
+          <div class="flex gap-3 mt-4 md:mt-0">
+            <div
+              class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center"
+            >
+              <p class="text-zinc-100 font-bold text-sm">f</p>
+            </div>
+            <div
+              class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center"
+            >
+              <p class="text-zinc-100 font-bold text-sm">ig</p>
+            </div>
+            <div
+              class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center"
+            >
+              <p class="text-zinc-100 font-bold text-sm">tw</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="py-5 md:py-0">
+          <p class="text-orange-400 text-lg font-bold">Enlaces Rápidos</p>
+          <nav class="mt-2 md:mt-0">
+            <ul class="flex flex-col gap-1">
+              <li>
+                <a href="#" class="text-zinc-400">Inicio</a>
+              </li>
+              <li>
+                <a href="#" class="text-zinc-400">Menú</a>
+              </li>
+              <li>
+                <a href="#" class="text-zinc-400">Nosotros</a>
+              </li>
+              <li>
+                <a href="#" class="text-zinc-400">Contacto</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div>
+          <p class="text-orange-400 font-bold text-lg">Servicios</p>
+
+          <div class="flex flex-col gap-1 mt-2 md:mt-0">
+            <p class="text-zinc-400">🚚 Delivery Gratis</p>
+            <p class="text-zinc-400">🏪 Retiro en Local</p>
+            <p class="text-zinc-400">🎉 Catering Eventos</p>
+            <p class="text-zinc-400">👨‍👩‍👧‍👦 Combos Familiares</p>
+          </div>
+        </div>
+
+        <div class="py-5 md:py-0">
+          <p class="text-orange-400 font-bold text-lg">Contacto</p>
+
+          <div class="flex flex-col gap-1 mt-2 md:mt-0">
+            <p class="text-zinc-400">📍 Avenida Principal 456</p>
+            <p class="text-zinc-400">
+              📞 <a href="#" class="text-orange-400">+51 927165123</a>
+            </p>
+            <p class="text-zinc-400">✉️ info@saborrapido.pe</p>
+            <p class="text-zinc-400">🕒 Lun-Dom: 11:00-23:00</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="pt-10 pb-2">
+        <p class="text-zinc-400 text-center">
+          © 2025 SisCoder. Todos los derechos reservados. | Desarrollado con ❤️
+          para ustedes
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
